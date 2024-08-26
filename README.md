@@ -1,4 +1,4 @@
-# WMATA-RailTrack
+# WMATA-RailTrack 🚂
 A train tracker for the Washington Metropolitan Area Transit Authority (WMATA) MetroRail.
 
 ## Introduction
@@ -20,7 +20,7 @@ This program uses the [WMATA TrainPositions API](https://developer.wmata.com/api
 
 ## API Information:
 The response elements used in this project are:
-1. CircuitId: The circuit identifier the train is currently on.
-2. DirectionNum: The direction the train is moving, irrespective of the track the train is on.
-4. TrainId: Uniquely identifiable internal train identifier.
-5. LineCode: Two-letter color abbreviation for the line.
+1. __CircuitId:__ The circuit identifier the train is currently on.
+2. __DirectionNum:__ The direction the train is moving, irrespective of the track the train is on.
+4. __TrainId:__ Uniquely identifiable internal train identifier.
+5. __LineCode:__ Two-letter color abbreviation for the line.
