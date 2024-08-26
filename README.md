@@ -7,7 +7,7 @@ WMATA train location tracker on Raspberry Pi 3b+
 
 ## Necessary Libraries:
 
-__Requests:__ Allows Python to send HTTP/1.1 requests easily. Mandatory for functionality.
+__[Requests:]__ (https://pypi.org/project/requests/) Allows Python to send HTTP/1.1 requests easily. Mandatory for functionality.
 ##
     pip3 install requests
 
