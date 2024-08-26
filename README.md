@@ -24,3 +24,8 @@ The response elements used in this project are:
 2. __DirectionNum:__ The direction the train is moving, irrespective of the track the train is on.
 4. __TrainId:__ Uniquely identifiable internal train identifier.
 5. __LineCode:__ Two-letter color abbreviation for the line.
+
+## Information for Humans:
+For more human-readable information on the MetroRail circuit and station system, open the Information for Humans folder.
+There, you will find a PDF that contains information on all stations:
+Station Code | Station Name | Line Color | CircuitID | Sequence Number
