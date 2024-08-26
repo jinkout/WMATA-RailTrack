@@ -1,1 +1,3 @@
-
+## Python Code Downloads:
+- wmata_railtrack_PUB.py : Optimized for running headless. Creates output for debugging purposes.
+- wmata_railtrack_PUB_Color.py : Color-coded text output.
