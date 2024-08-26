@@ -1,0 +1,302 @@
+StationName,CircuitID,DirectionNum
+Metro Center,203,1
+Farragut N,190,1
+Dupont Circle,179,1
+Woodley Park-Zoo/Adams Morgan,363,1
+Cleveland Park,154,1
+Van Ness-UDC,142,1
+Tenleytown-AU,336,1
+Friendship Heights,126,1
+Bethesda,109,1
+Medical Center,95,1
+Grosvenor-Strathmore,80,1
+North Bethesda,62,1
+Twinbrook,53,1
+Rockville,32,1
+Shady Grove,7,1
+Gallery Pl-Chinatown,467,1
+Judiciary Square,466,1
+Union Station,485,1
+Rhode Island Ave-Brentwood,513,1
+Brookland-CUA,527,1
+Fort Totten,548,1
+Takoma,571,1
+Silver Spring,591,1
+Forest Glen,611,1
+Wheaton,629,1
+Glenmont,625,1
+NoMa-Gallaudet U,700,1
+Metro Center,1135,1
+Metro Center,1135,1
+Metro Center,1135,1
+McPherson Square,1126,1
+McPherson Square,1126,1
+McPherson Square,1126,1
+Farragut West,1117,1
+Farragut West,1117,1
+Farragut West,1117,1
+Foggy Bottom-GWU,1105,1
+Foggy Bottom-GWU,1105,1
+Foggy Bottom-GWU,1105,1
+Rosslyn,1092,1
+Rosslyn,1092,1
+Rosslyn,1092,1
+Arlington Cemetery,1070,1
+Pentagon,1052,1
+Pentagon,1052,1
+Pentagon City,1036,1
+Pentagon City,1036,1
+Crystal City,1024,1
+Crystal City,1024,1
+Ronald Reagan Washington National Airport,1010,1
+Ronald Reagan Washington National Airport,1010,1
+Potomac Yard,3493,1
+Potomac Yard,3493,1
+Braddock Road,976,1
+Braddock Road,976,1
+,,
+King St-Old Town,969,1
+King St-Old Town,969,1
+Eisenhower Avenue,955,1
+Huntington,944,1
+Federal Triangle,1384,1
+Federal Triangle,1384,1
+Federal Triangle,1384,1
+Smithsonian,1393,1
+Smithsonian,1393,1
+Smithsonian,1393,1
+L'Enfant Plaza,1400,1
+L'Enfant Plaza,1400,1
+L'Enfant Plaza,1400,1
+Federal Center SW,1406,1
+Federal Center SW,1406,1
+Federal Center SW,1406,1
+Capitol South,1418,1
+Capitol South,1418,1
+Capitol South,1418,1
+Eastern Market,1424,1
+Eastern Market,1424,1
+Eastern Market,1424,1
+Potomac Ave,1436,1
+Potomac Ave,1436,1
+Potomac Ave,1436,1
+Stadium-Armory,1443,1
+Stadium-Armory,1443,1
+Stadium-Armory,1443,1
+Minnesota Ave,1475,1
+Deanwood,1487,1
+Cheverly,1500,1
+Landover,1522,1
+New Carrollton,1542,1
+Mt Vernon Sq 7th St-Convention Center,1753,1
+Mt Vernon Sq 7th St-Convention Center,1753,1
+Shaw-Howard U,1764,1
+Shaw-Howard U,1764,1
+U Street/African-Amer Civil War Memorial/Cardozo,1773,1
+Columbia Heights,1782,1
+Georgia Ave-Petworth,1796,1
+Fort Totten,1809,1
+West Hyattsville,1833,1
+Hyattsville Crossing,1840,1
+College Park-U of Md,1871,1
+Greenbelt,1894,1
+Gallery Pl-Chinatown,2246,1
+Gallery Pl-Chinatown,2246,1
+Archives-Navy Memorial-Penn Quarter,2241,1
+Archives-Navy Memorial-Penn Quarter,2241,1
+L'Enfant Plaza,2231,1
+L'Enfant Plaza,2231,1
+Waterfront,2219,1
+Navy Yard-Ballpark,2208,1
+Anacostia,2199,1
+Congress Heights,2183,1
+Southern Avenue,2170,1
+Naylor Road,2154,1
+Suitland,2136,1
+Branch Ave,2118,1
+Benning Road,2420,1
+Benning Road,2420,1
+Capitol Heights,2434,1
+Capitol Heights,2434,1
+Addison Road-Seat Pleasant,2449,1
+Addison Road-Seat Pleasant,2449,1
+Morgan Boulevard,2469,1
+Morgan Boulevard,2469,1
+Downtown Largo,2487,1
+Downtown Largo,2487,1
+Van Dorn Street,2634,1
+Franconia-Springfield,2604,1
+Court House,2911,1
+Court House,2911,1
+Clarendon,2898,1
+Clarendon,2898,1
+Virginia Square-GMU,2886,1
+Virginia Square-GMU,2886,1
+Ballston-MU,2870,1
+Ballston-MU,2870,1
+East Falls Church,2844,1
+East Falls Church,2844,1
+West Falls Church,2817,1
+Dunn Loring-Merrifield,2796,1
+Vienna/Fairfax-GMU,2774,1
+McLean,3238,1
+Tysons,3232,1
+Greensboro,3221,1
+Spring Hill,3214,1
+Wiehle-Reston East,3155,1
+Reston Town Center,3627,1
+Herndon,3612,1
+Innovation Center,3594,1
+Washington Dulles International Airport,3577,1
+Loudoun Gateway,3544,1
+Ashburn,3523,1
+Metro Center,661,2
+Farragut N,389,2
+Dupont Circle,378,2
+Woodley Park-Zoo/Adams Morgan,164,2
+Cleveland Park,356,2
+Van Ness-UDC,,2
+Tenleytown-AU,336,2
+Friendship Heights,326,2
+Bethesda,309,2
+Medical Center,294,2
+Grosvenor-Strathmore,80,2
+North Bethesda,260,2
+Twinbrook,251,2
+Rockville,232,2
+Shady Grove,210,2
+Gallery Pl-Chinatown,667,2
+Judiciary Square,677,2
+Union Station,686,2
+Rhode Island Ave-Brentwood,717,2
+Brookland-CUA,731,2
+Fort Totten,757,2
+Takoma,785,2
+Silver Spring,809,2
+Forest Glen,828,2
+Wheaton,846,2
+Glenmont,868,2
+NoMa-Gallaudet U,496,2
+Metro Center,1330,2
+Metro Center,1330,2
+Metro Center,1330,2
+McPherson Square,1323,2
+McPherson Square,1323,2
+McPherson Square,1323,2
+Farragut West,1310,2
+Farragut West,1310,2
+Farragut West,1310,2
+Foggy Bottom-GWU,1298,2
+Foggy Bottom-GWU,1298,2
+Foggy Bottom-GWU,1298,2
+Rosslyn,1285,2
+Rosslyn,1285,2
+Rosslyn,1285,2
+Arlington Cemetery,1265,2
+Pentagon,1246,2
+Pentagon,1246,2
+Pentagon City,1230,2
+Pentagon City,1230,2
+Crystal City,1217,2
+Crystal City,1217,2
+Ronald Reagan Washington National Airport,1204,2
+Ronald Reagan Washington National Airport,1204,2
+Potomac Yard,3512,2
+Potomac Yard,3512,2
+Braddock Road,1170,2
+Braddock Road,1170,2
+King St-Old Town,1162,2
+King St-Old Town,1162,2
+Eisenhower Avenue,1148,2
+Huntington,1137,2
+Federal Triangle,1549,2
+Federal Triangle,1549,2
+Federal Triangle,1549,2
+Smithsonian,1559,2
+Smithsonian,1559,2
+Smithsonian,1559,2
+L'Enfant Plaza,1568,2
+L'Enfant Plaza,1568,2
+L'Enfant Plaza,1568,2
+Federal Center SW,1575,2
+Federal Center SW,1575,2
+Federal Center SW,1575,2
+Capitol South,1590,2
+Capitol South,1590,2
+Capitol South,1590,2
+Eastern Market,1598,2
+Eastern Market,1598,2
+Eastern Market,1598,2
+Potomac Ave,1610,2
+Potomac Ave,1610,2
+Potomac Ave,1610,2
+Stadium-Armory,1618,2
+Stadium-Armory,1618,2
+Stadium-Armory,1618,2
+Minnesota Ave,1643,2
+Deanwood,1657,2
+Cheverly,1670,2
+Landover,1692,2
+New Carrollton,1711,2
+Mt Vernon Sq 7th St-Convention Center,1911,2
+Mt Vernon Sq 7th St-Convention Center,1911,2
+Shaw-Howard U,1923,2
+Shaw-Howard U,1923,2
+U Street/African-Amer Civil War Memorial/Cardozo,1923,2
+Columbia Heights,1942,2
+Georgia Ave-Petworth,1956,2
+Fort Totten,1971,2
+West Hyattsville,1992,2
+Hyattsville Crossing,2009,2
+College Park-U of Md,2030,2
+Greenbelt,2055,2
+Gallery Pl-Chinatown,1899,2
+Gallery Pl-Chinatown,1899,2
+Archives-Navy Memorial-Penn Quarter,2376,2
+Archives-Navy Memorial-Penn Quarter,2376,2
+L'Enfant Plaza,2364,2
+L'Enfant Plaza,2364,2
+Waterfront,2352,2
+Navy Yard-Ballpark,2342,2
+Anacostia,2333,2
+Congress Heights,2317,2
+Southern Avenue,2303,2
+Naylor Road,2291,2
+Suitland,2272,2
+Branch Ave,2255,2
+Benning Road,2506,2
+Benning Road,2506,2
+Capitol Heights,2521,2
+Capitol Heights,2521,2
+Addison Road-Seat Pleasant,2537,2
+Addison Road-Seat Pleasant,2537,2
+Morgan Boulevard,2557,2
+Morgan Boulevard,2557,2
+Downtown Largo,2574,2
+Downtown Largo,2574,2
+Van Dorn Street,2709,2
+Franconia-Springfield,2679,2
+Court House,3061,2
+Court House,3061,2
+Clarendon,3048,2
+Clarendon,3048,2
+Virginia Square-GMU,3037,2
+Virginia Square-GMU,3037,2
+Ballston-MU,3023,2
+Ballston-MU,3023,2
+East Falls Church,3001,2
+East Falls Church,3001,2
+West Falls Church,2976,2
+Dunn Loring-Merrifield,2954,2
+Vienna/Fairfax-GMU,2933,2
+McLean,3377,2
+Tysons,3370,2
+Greensboro,3359,2
+Spring Hill,3352,2
+Wiehle-Reston East,3290,2
+Reston Town Center,3741,2
+Herndon,3724,2
+Innovation Center,3706,2
+Washington Dulles International Airport,3689,2
+Loudoun Gateway,3657,2
+Ashburn,3637,2
