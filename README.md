@@ -1,5 +1,5 @@
 # WMATA-RailTrack
-WMATA train location tracker on Raspberry Pi 3b+
+A train tracker for the Washington Metropolitan Area Transit Authority (WMATA) MetroRail.
 
 ##
     curl -O
@@ -11,6 +11,6 @@ WMATA train location tracker on Raspberry Pi 3b+
 ##
     pip3 install requests
 
-__Sty:__ Allows for string styling, in this case, coloring. Only needed for wmata_railtrack_PUB_Color.py
+[__Sty:__](https://pypi.org/project/sty/) Allows for string styling, in this case, coloring. Only needed for wmata_railtrack_PUB_Color.py
 ##
     pip3 install sty
