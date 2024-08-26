@@ -1,4 +1,4 @@
-# WMATA-RailTrack 🚂
+# 🚂 WMATA-RailTrack 🚂
 A train tracker for the Washington Metropolitan Area Transit Authority (WMATA) MetroRail.
 
 ## Introduction
