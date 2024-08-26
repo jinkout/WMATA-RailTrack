@@ -22,7 +22,5 @@ This program uses the [WMATA TrainPositions API](https://developer.wmata.com/api
 The response elements used in this project are:
 1. CircuitId: The circuit identifier the train is currently on.
 2. DirectionNum: The direction the train is moving, irrespective of the track the train is on.
-**-**1: Northbound or Eastbound trains.
-**-**2: Southbound or Westbound trains.
 4. TrainId: Uniquely identifiable internal train identifier.
 5. LineCode: Two-letter color abbreviation for the line.
