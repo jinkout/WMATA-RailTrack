@@ -30,4 +30,5 @@ For more human-readable information on the MetroRail circuit and station system,
 There, you will find a PDF that contains 2 tables with information on all stations:
 
 | Station Code | Station Name | Line Color | CircuitID | Sequence Number |
+
 The tables are split by which direction (1 or 2) that the trains are currently traveling because the circuit ID can be different for the same station based on direction.
