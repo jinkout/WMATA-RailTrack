@@ -28,8 +28,8 @@ The response elements used in this project are:
 ## Information for Humans:
 For more human-readable information on the MetroRail circuit and station system, open the Information for Humans folder.
 There, you will find a PDF that contains 2 tables with information on all stations:
-||||||
+|StationCode|StationName|LineColor|CircuitID|SeqNum|
 |---|---|---|--|---|
-| Station Code | Station Name | Line Color | CircuitID | Sequence Number |
+| The unique letter/number designation for each station | The name of the station as we know it | Line Color Abbreviation | The circuit number the train is currently on | Where that location is in sequence |
 
 The tables are split by which direction (1 or 2) that the trains are currently traveling because the circuit ID can be different for the same station based on direction.
