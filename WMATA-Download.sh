@@ -46,7 +46,7 @@ printf "${ORANGE}***** ${RESETCOLOR}${SEAFOAM}This installation will make the Ra
 printf "\n"
 
 # Prompt for the user's API key
-printf "${PINK}Starting WMATA Railtrack installation...$RESETCOLOR\n"
+printf "${PINK}Starting WMATA Railtrack installation...${RESETCOLOR}\n"
 if [[ -z "${API}" ]]; then
         API=""
 fi
@@ -54,7 +54,7 @@ fi
 while [[ -z "$API" ]]; do
         read -p "Please enter your API key for the WMATA Train Positions API: " API
 done
-printf"\n"
+printf "\n"
 printf "********************************************************************"
 printf "\n"
 printf "\n"
@@ -125,7 +125,7 @@ echo "***************************************************"
 printf "${PINK}Checking for startup instructions in .bashrc...$RESETCOLOR"
 if ! grep -q "WMATA RailTrack Instructions" ~/.bashrc; then
     printf "\n"
-    printf "${PINK}Adding startup instructions to .bashrc...$RESETCOLOR"
+    printf "${PINK}Adding startup instructions to .bashrc...$RESETCOLOR\n"
     echo "$INSTRUCTIONS" >> ~/.bashrc
     printf "\n\n"
 else
@@ -138,7 +138,7 @@ fi
 
 # Final message
 printf "\n"
-printf "${SEAFOAM}The WMATA RailTracker installation was successful!$RESETCOLOR"
+printf "${SEAFOAM}The WMATA RailTracker installation was successful!$RESETCOLOR\n"
 printf "${SEAFOAM}Please review the script output for errors in configuration.$RESETCOLOR"
 printf "\n"
 echo "***************************************************"
@@ -164,4 +164,4 @@ done
 printf "\n${PINK}Starting the service...$RESETCOLOR"
 printf "\n"
 sleep 2
-python3 -u $T_NAME
+python3 -u $WMATADIR/$T_NAME
