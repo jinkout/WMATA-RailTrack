@@ -50,7 +50,6 @@ API="${1:-}"
 if [[ -z "$API" ]]; then
         printf "${PINK}Starting WMATA Railtrack installation...${RESETCOLOR}\n"
         read -p "Please enter your API key for the WMATA Train Positions API: " API
-done
 printf "\n"
 printf "********************************************************************"
 printf "\n"
