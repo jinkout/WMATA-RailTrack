@@ -46,12 +46,9 @@ printf "${ORANGE}***** ${RESETCOLOR}${SEAFOAM}This installation will make the Ra
 printf "\n"
 
 # Prompt for the user's API key
-printf "${PINK}Starting WMATA Railtrack installation...${RESETCOLOR}\n"
-if [[ -z "${API}" ]]; then
-        API=""
-fi
-
-while [[ -z "$API" ]]; do
+API="${1:-}"
+if [[ -z "$API" ]]; then
+        printf "${PINK}Starting WMATA Railtrack installation...${RESETCOLOR}\n"
         read -p "Please enter your API key for the WMATA Train Positions API: " API
 done
 printf "\n"
@@ -60,7 +57,7 @@ printf "\n"
 printf "\n"
 
 # Download the Python script
-printf "${PINK}Downloading the WMATA Railtrack script...$RESETCOLOR"
+printf "${PINK}Downloading the WMATA Railtrack script...${RESETCOLOR}\n"
 curl -o "$WMATADIR/$T_NAME" "$TRACKERURL"
 printf "\n"
 printf "********************************************************************"
