@@ -47,8 +47,8 @@ printf "\n"
 
 # Prompt for the user's API key
 echo -e "${PINK}Starting WMATA Railtrack installation...$RESETCOLOR"
-if [[ -z "$API" ]]; then
-    read -p "Please enter your API key for the WMATA Train Positions API: " API
+if [[ -z "$API ]]; then
+        read -p "Please enter your API key for the WMATA Train Positions API: " API
 fi
 printf "********************************************************************"
 printf "\n"
@@ -80,7 +80,7 @@ cat <<EOL | sudo tee /etc/systemd/system/$SVC_NAME > /dev/null 2>&1
 Description=WMATA Railtrack
 
 [Service]
-ExecStart=/usr/bin/python3 /path/to/$SVC_NAME
+ExecStart=/usr/bin/python3 $WMATADIR/$SVC_NAME
 WorkingDirectory=$(pwd)
 StandardOutput=inherit
 StandardError=inherit
