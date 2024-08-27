@@ -29,6 +29,17 @@ The response elements used in this project are:
 4. __TrainId:__ Uniquely identifiable internal train identifier.
 5. __LineCode:__ Two-letter color abbreviation for the line.
 
+## How to get an API key:
+1. Sign up for the (WMATA Developer site)[https://developer.wmata.com/signup].
+2. Open the __Products__ tab.
+3. Select __Default Tier__.
+4. In the search bar under *Your subscriptions*, type exactly: Train Positions
+5. Agree to the terms of use and select __Subscribe__.
+6. Select __Show__ on the Primary key and copy that string- this is your API key and the program will not work without it!
+7. When prompted by the installer, go ahead and paste it in.
+
+To see your API key again later, log back into the WMATA Developer site and go to the __Profile__ tab. There, all of your active API subscriptions will be shown. You can copy your key(s) again or regenerate them if you need.
+
 ## Information for Humans:
 For more human-readable information on the MetroRail circuit and station system, open the Information for Humans folder.
 There, you will find a PDF that contains 2 tables with information on all stations:
