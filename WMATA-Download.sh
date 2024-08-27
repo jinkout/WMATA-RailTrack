@@ -61,7 +61,7 @@ printf "\n"
 
 # Download the Python script
 printf "${PINK}Downloading the WMATA Railtrack script...$RESETCOLOR"
-curl -O "$WMATADIR/$T_NAME" "$TRACKERURL"
+curl -o "$WMATADIR/$T_NAME" "$TRACKERURL"
 printf "\n"
 printf "********************************************************************"
 printf "\n\n"
@@ -73,7 +73,7 @@ if [[ $? -ne 0 ]]; then
 fi
 
 # Replace the placeholder API key in the downloaded script with whatever the user inputted previously
-sed -i "s|API = 'YOUR_API_KEY'|API = '$API'|g" $T_NAME
+sed -i "s|API = 'YOUR_API_KEY'|API = '$API'|g" $WMATADIR/$T_NAME
 
 # Make the Python script executable
 chmod +x $T_NAME
