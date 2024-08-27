@@ -61,10 +61,10 @@ printf "\n"
 
 # Download the Python script
 printf "${PINK}Downloading the WMATA Railtrack script...$RESETCOLOR"
-curl -O "$WMATADIR/$T_NAME" $TRACKERURL
+curl -O "$WMATADIR/$T_NAME" "$TRACKERURL"
+printf "\n"
 printf "********************************************************************"
-printf "\n"
-printf "\n"
+printf "\n\n"
 
 # Check if the download was successful
 if [[ $? -ne 0 ]]; then
@@ -87,8 +87,8 @@ cat <<EOL | sudo tee /etc/systemd/system/$SVC_NAME > /dev/null 2>&1
 Description=WMATA Railtrack
 
 [Service]
-ExecStart=/usr/bin/python3 $WMATADIR/$SVC_NAME
-WorkingDirectory=$(pwd)
+ExecStart=/usr/bin/python3 $WMATADIR/$T_NAME
+WorkingDirectory=$WMATADIR
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
@@ -131,18 +131,18 @@ if ! grep -q "WMATA RailTrack Instructions" ~/.bashrc; then
 else
     printf "\n"
     printf "${LUIGI}Startup instructions already exist in .bashrc!$RESETCOLOR"
+    printf "\n"
     printf "********************************************************************"
-    printf "\n"
-    printf "\n"
+    printf "\n\n"
 fi
 
 # Final message
 printf "\n"
 printf "${SEAFOAM}The WMATA RailTracker installation was successful!$RESETCOLOR"
 printf "${SEAFOAM}Please review the script output for errors in configuration.$RESETCOLOR"
+printf "\n"
 echo "***************************************************"
-printf "\n"
-printf "\n"
+printf "\n\n"
 
 
 # Countdown before starting the Python script so there's time to read everything
