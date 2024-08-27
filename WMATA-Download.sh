@@ -47,7 +47,7 @@ printf "\n"
 
 # Prompt for the user's API key
 printf "${PINK}Starting WMATA Railtrack installation...$RESETCOLOR"
-if [[ -z "$API ]]; then
+if [[ -z "$API" ]]; then
         read -p "Please enter your API key for the WMATA Train Positions API: " API
 fi
 printf "********************************************************************"
@@ -97,7 +97,6 @@ sudo systemctl enable $SVC_NAME
 sudo systemctl start $SVC_NAME
 sudo systemctl restart $SVC_NAME
 printf "\n\n"
-
 
 # Create a text file for instructions to load on boot
 INSTRUCTIONS='
