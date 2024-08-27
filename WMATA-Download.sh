@@ -76,7 +76,7 @@ fi
 sed -i "s|API = 'YOUR_API_KEY'|API = '$API'|g" $WMATADIR/$T_NAME
 
 # Make the Python script executable
-chmod +x $T_NAME
+chmod +x $WMATADIR/$T_NAME
 
 # Create the systemd service file
 printf "${PINK}Creating the wmata_service.service service...$RESETCOLOR"
