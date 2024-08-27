@@ -5,7 +5,7 @@ A train tracker for the Washington Metropolitan Area Transit Authority (WMATA) M
 This program uses the [WMATA TrainPositions API](https://developer.wmata.com/api-details#api=5763fa6ff91823096cac1057&operation=5763fb35f91823096cac1058) for all location data. It's designed to download and forget it using a loop to continuously run and update with new data from the API every 10 seconds.
 
 ##
-    curl -O
+    curl -O https://raw.githubusercontent.com/jinkout/WMATA-RailTrack/main/WMATA-Download.sh | bash
 
 
 ## Necessary Libraries:
