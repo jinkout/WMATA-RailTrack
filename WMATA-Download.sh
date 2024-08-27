@@ -46,17 +46,22 @@ printf "${ORANGE}***** ${RESETCOLOR}${SEAFOAM}This installation will make the Ra
 printf "\n"
 
 # Prompt for the user's API key
-printf "${PINK}Starting WMATA Railtrack installation...$RESETCOLOR"
-if [[ -z "$API" ]]; then
-        read -p "Please enter your API key for the WMATA Train Positions API: " API
+printf "${PINK}Starting WMATA Railtrack installation...$RESETCOLOR\n"
+if [[ -z "${API}" ]]; then
+        API=""
 fi
+
+while [[ -z "$API" ]]; do
+        read -p "Please enter your API key for the WMATA Train Positions API: " API
+done
+printf"\n"
 printf "********************************************************************"
 printf "\n"
 printf "\n"
 
 # Download the Python script
 printf "${PINK}Downloading the WMATA Railtrack script...$RESETCOLOR"
-curl -O $TRACKERURL
+curl -O "$WMATADIR/$T_NAME" $TRACKERURL
 printf "********************************************************************"
 printf "\n"
 printf "\n"
@@ -75,6 +80,8 @@ chmod +x $T_NAME
 
 # Create the systemd service file
 printf "${PINK}Creating the wmata_service.service service...$RESETCOLOR"
+printf "\n"
+
 cat <<EOL | sudo tee /etc/systemd/system/$SVC_NAME > /dev/null 2>&1
 [Unit]
 Description=WMATA Railtrack
