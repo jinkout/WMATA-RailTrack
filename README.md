@@ -23,7 +23,7 @@ Download the color-coded program:
     pip3 install sty
 
 ## How to get an API key:
-1. Sign up for the (WMATA Developer site)[https://developer.wmata.com/signup].
+1. Sign up for the [WMATA Developer site](https://developer.wmata.com/signup).
 2. Open the __Products__ tab.
 3. Select __Default Tier__.
 4. In the search bar under *Your subscriptions*, type exactly: Train Positions
