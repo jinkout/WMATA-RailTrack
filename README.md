@@ -14,6 +14,10 @@ Download the color-coded program:
 
 ## Necessary Libraries:
 
+__pip:__ This is required to download anything for Python.
+##
+    sudo apt-install python3 pip
+
 [__Requests:__](https://pypi.org/project/requests/) Allows Python to send HTTP/1.1 requests easily. Mandatory for functionality.
 ##
     pip3 install requests
